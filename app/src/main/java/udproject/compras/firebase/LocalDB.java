@@ -72,7 +72,7 @@ public class LocalDB extends SQLiteOpenHelper {
                 "VALUES (5, 'CAFE', 2000, 'UN CAFECITO')");
 
         sqLiteDatabase.execSQL("insert into Productos (Id_Productos, Name_Productos, Precio_Producto, Descripcion_Producto)+" +
-                "VALUES (6, 'CAFE', 2000, 'UN CAFECITO')")
+                "VALUES (6, 'CAFE', 2000, 'UN CAFECITO')");
         onCreate(sqLiteDatabase);
     }
 
